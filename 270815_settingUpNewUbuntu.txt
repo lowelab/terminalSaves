@@ -1,0 +1,59 @@
+df -hT
+ersa
+sudo scp jgerlach@sftp.ersa.edu.au:/data/lowelab/Joey/FastQC* ~/programs/
+ls
+mkdir programs
+sudo scp jgerlach@sftp.ersa.edu.au:/data/lowelab/Joey/FastQC* ~/programs/
+cd programs/
+ls
+targ FastQC.tar.gz 
+bashrc
+mkdir ~/scripts
+sors
+bashrc
+source ~/.bashrc
+sors
+git config --global user.name "Joey"
+git config --global user.email "josephine.gerlach@adelaide.edu.au"
+cd ~/GitHub/
+git clone https://github.com/lowelab/scripts.git scripts_git
+ls
+cd scripts_git/
+ls
+git pull
+cp g77_x64_debian_and_ubuntu.tar.gz ~/programs/
+cp stacks-1.34.tar.gz ~/programs/
+bashrc
+sors
+cd ../
+git clone https://github.com/lowelab/terminalSaves.git
+cd terminalSaves/
+hcut >> 270815_settingUpNewUbuntu.txt
+hcut >> ~/GitHub/terminalSaves/270815_settingUpNewUbuntu.txt 
+ubuntu@small---root:~$ cd ~
+ubuntu@small---root:~$ ls
+ubuntu@small---root:~$ la
+ubuntu@small---root:~$ nano .bashrc
+ubuntu@small---root:~$ source ~/.bashrc 
+ubuntu@small---root:~$ mkdir GitHub
+ubuntu@small---root:~$ cd GitHub/
+ubuntu@small---root:~/GitHub$ sudo apt-get update
+ubuntu@small---root:~/GitHub$ sudo apt-get upgrade
+ubuntu@small---root:~/GitHub$ sget build-essentials
+ubuntu@small---root:~/GitHub$ man -k build-essentials
+ubuntu@small---root:~/GitHub$ man history
+ubuntu@small---root:~/GitHub$ sget git
+ubuntu@small---root:~/GitHub$ git clone https://github.com/lowelab/pericopsis.git pericopsis_git
+ubuntu@small---root:~/GitHub$ git clone https://github.com/lowelab/scripts.git scripts_git
+ubuntu@small---root:~/GitHub$ sget gcc
+ubuntu@small---root:~/GitHub$ cd ~
+ubuntu@small---root:~$ sget g77
+ubuntu@small---root:~$ python
+ubuntu@small---root:~$ sget python2.7-dev
+ubuntu@small---root:~$ sget python-numpy python-scipy python-biopython
+ubuntu@small---root:~$ sget default-jre
+ubuntu@small---root:~$ Write failed: Broken pipe
+ubuntu@small---root:~$ hcut >> ~/GitHub/terminalSaves/270815_settingUpNewUbuntu.txt 
+ubuntu@small---root:~$ less ~/GitHub/terminalSaves/270815_settingUpNewUbuntu.txt 
+ubuntu@small---root:~$ history
+ubuntu@small---root:~$ 
