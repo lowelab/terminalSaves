@@ -57,3 +57,91 @@ ubuntu@small---root:~$ hcut >> ~/GitHub/terminalSaves/270815_settingUpNewUbuntu.
 ubuntu@small---root:~$ less ~/GitHub/terminalSaves/270815_settingUpNewUbuntu.txt 
 ubuntu@small---root:~$ history
 ubuntu@small---root:~$ 
+hcut >> ~/GitHub/terminalSaves/270815_settingUpNewUbuntu.txt 
+less ~/GitHub/terminalSaves/270815_settingUpNewUbuntu.txt 
+history
+cd ~/GitHub/terminalSaves/
+ls
+git pull
+egrep -o "^ubuntu@small---root.*\$.*" 270815_settingUpNewUbuntu_Terminal_Saved_Output.txt 
+egrep -o "^ubuntu@small---root.*\$.*" 270815_settingUpNewUbuntu_Terminal_Saved_Output.txt >> 270815_settingUpNewUbuntu.txt 
+egrep -o "\$.*" 270815_settingUpNewUbuntu_Terminal_Saved_Output.txt 
+egrep -o "^ubuntu@small---root.*\$.*" 270815_settingUpNewUbuntu_Terminal_Saved_Output.txt 
+egrep -o "\$.*" 270815_settingUpNewUbuntu_Terminal_Saved_Output.txt 
+git status
+git add 270815_settingUpNewUbuntu.txt 
+git commit -m "setting up ubuntu history file"
+git push
+cd ../scripts_git/
+ls
+git pull
+cp fastx_toolkit-0.0.14.tar.gz libgtextutils-0.7.tar.gz ~/programs/
+cd ~/programs
+targ g77_x64_debian_and_ubuntu.tar.gz 
+cd g77_x64_debian_and_ubuntu/
+chmod +x ./install.sh
+./install.sh
+g77
+cd ../
+rm g77_x64_debian_and_ubuntu.tar.gz 
+targ libgtextutils-0.7.tar.gz 
+cd libgtextutils-0.7/
+./install
+ls
+./configure
+make
+sget make
+make
+sudo make install
+cd ../
+targ fastx_toolkit-0.0.14.tar.gz 
+cd fastx_toolkit-0.0.14/
+./configure
+cd ../
+wget http://pkgconfig.freedesktop.org/releases/pkg-config-0.28.tar.gz
+targ pkg-config-0.28.tar.gz 
+cd pkg-config-0.28/
+ls
+./configure
+man -k GTEXTUTILS_CFLAGS
+man pkg-config
+man fastx_toolkit
+man -k fastx_toolkit
+bashrc
+sors
+cd ../fastx_toolkit-0.0.14/
+./configure
+ls
+less config.log 
+less README 
+cd ../
+rm -r fastx_toolkit-0.0.14
+rm fastx_toolkit-0.0.14.tar.gz 
+rm -r pkg-config-0.28
+ls
+rm FastQC.tar.gz 
+ls
+sget ant
+sget r-base-core
+sudo apt-get build-essentials
+sget build-essential
+sget samtools
+sget mysql-server php5 apache2
+sget php-mdb2 php-mdb2-driver-mysql 
+sget libdbd-mysql-perl
+sget libbam-dev
+sget samtools
+targ stacks-1.34.tar.gz 
+cd stacks-1.34/
+./configure
+make
+sudo make install
+sget default-jdk
+cd ../
+wget http://sco.h-its.org/exelixis/web/software/pear/files/pear-0.9.6-bin-64.tar.gz
+targ pear-0.9.6-bin-64.tar.gz 
+mv pear-0.9.6-bin-64 pear
+cd pear/
+ls
+l
+hcut >> ~/GitHub/terminalSaves/270815_settingUpNewUbuntu.txt 
